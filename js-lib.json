@@ -1,0 +1,22 @@
+{
+  "extends": [
+    ":automergeMinor"
+  ],
+  "rangeStrategy": "auto",
+  "travis": {
+    "enabled": true
+  },
+  "node": {
+    "supportPolicy": "all"
+  },
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "^eslint-config-",
+        "/eslint-plugin$"
+      ],
+      "groupName": "eslint packages",
+      "separateMajorMinor": false
+    }
+  ]
+}

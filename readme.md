@@ -14,4 +14,7 @@ These are meant to be used through GitHub. For example, in your `renovate.json`:
 
 There is no version specified. Changes according to the convenience of the author are expected.
 
-There is currently a single preset, `js-lib`. It is meant for JavaScript libraries.
+There are currently the following presets:
+
+- `js-lib`: for JavaScript libraries
+- `js-executable`: for JavaScript end-projects.

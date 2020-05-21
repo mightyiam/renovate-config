@@ -14,6 +14,7 @@
       "packagePatterns": [
         "^eslint-config-",
         "/eslint-plugin$"
+        "^@typescript-eslint/parser$"
       ],
       "groupName": "eslint packages",
       "separateMajorMinor": false

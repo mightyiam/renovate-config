@@ -2,6 +2,8 @@
   "extends": [
     ":automergeMinor"
   ],
+  "semanticCommitScope": "deps",
+  "semanticCommitType": "auto",
   "rangeStrategy": "auto",
   "travis": {
     "enabled": true

@@ -19,6 +19,12 @@
   "packageRules": [
     {
       "packagePatterns": [
+        "^typescript$"
+      ],
+      "automerge": false
+    },
+    {
+      "packagePatterns": [
         "^eslint-config-",
         "\/eslint-plugin$",
         "^@typescript-eslint\/parser$"

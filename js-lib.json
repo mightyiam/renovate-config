@@ -25,7 +25,7 @@
       "packagePatterns": [
         "^eslint-config-",
         "\/eslint-plugin$",
-        "^@typescript-eslint\/$"
+        "^@typescript-eslint\/"
       ],
       "groupName": "eslint packages",
       "separateMajorMinor": false
